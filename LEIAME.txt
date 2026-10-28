@@ -1,0 +1,7 @@
+1. npx create-expo-app@latest jogo-adivinhacao
+2. Dentro da pasta criada: npx expo install firebase
+3. Apague a pasta src/app que veio no projeto novo e copie para o lugar dela a pasta src/app deste ZIP
+4. Copie o firebaseConfig.js deste ZIP para a raiz do projeto
+5. Abra o firebaseConfig.js e troque os COLE_AQUI pelos dados do seu projeto Firebase (Configurações do projeto > Seus apps)
+6. No Firebase, em Firestore Database, crie o banco (modo de teste serve para o trabalho)
+7. npx expo start
